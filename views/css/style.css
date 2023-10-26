@@ -50,3 +50,27 @@ body{
     border-bottom: 2px solid  #DCA34B;
     
 }
+.container_banner{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img_banner{
+    display:inline-block;
+    text-align: center;
+}
+.container_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery{
+    width: 20%;
+
+}
+.gallery h1{
+    font-weight: 400;
+    font-size: 25px;
+    
+}
