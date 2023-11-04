@@ -52,5 +52,41 @@ body{
 }
 .content_contatenos{
     display: flex;
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.form form{
+   
+    
+}
+.form label{
+    font-size: 24px;
+    color: #006174;
+    font-family: 'GFS Didot', serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 0;
+}
+.form input{
+    border: none;
+    border-radius: 10px;
+    background-color: #F3F1F1;
+    width: 508px;
+    height: 52px;
+}
+.form button{
+    width: 174px;
+    height: 62px;
+
+}
+.button{
+    background-color: red;
+    display: flex;
+    justify-content: center;
     
 }
