@@ -16,6 +16,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
+    
 
 }
 .menu{
@@ -58,6 +59,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 
 }
 .form form{
@@ -85,8 +87,16 @@ body{
 
 }
 .button{
-    background-color: red;
     display: flex;
-    justify-content: center;
+    padding: 0.9rem 0;
+}
+.button button{
+    border-radius: 10px;
+    background-color: #006174;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'GFS Didot', serif;
+    font-size: 24px;
+    cursor: pointer;
     
 }
