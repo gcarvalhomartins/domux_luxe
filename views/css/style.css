@@ -54,6 +54,7 @@ body{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 60px;
     
 }
 .img_banner{
@@ -67,7 +68,7 @@ body{
 }
 .gallery{
     width: 20%;
-
+    padding-bottom: 30px;
 }
 .gallery h1{
     font-weight: 400;
