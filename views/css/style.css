@@ -64,8 +64,7 @@ body{
     height: 350px;
     width: 1000px;
     padding-bottom: 60px;
-    border-radius: 3px;
-    
+    border-radius: 10px;
 }
 .img_banner{
     display: flex;
@@ -86,9 +85,15 @@ body{
 .gallery{
     width: 20%;
     padding-bottom: 30px;
+    cursor: pointer;
+    
+}
+.gallery img{
+    width: 300px;
+    border-radius: 10px;
 }
 .gallery h1{
     font-weight: 400;
     font-size: 25px;
-    
+    padding-bottom: 0.9rem;
 }
